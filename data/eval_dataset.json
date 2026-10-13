@@ -1,0 +1,1081 @@
+[
+  {
+    "id": "e01",
+    "from": "deals@shopnow.biz",
+    "subject": "WIN a FREE iPhone!!!",
+    "body": "Click here now to claim your free prize. Limited time offer!",
+    "label": "ignore"
+  },
+  {
+    "id": "e02",
+    "from": "newsletter@medium.com",
+    "subject": "Your weekly digest",
+    "body": "Top stories on AI and web development this week.",
+    "label": "ignore"
+  },
+  {
+    "id": "e03",
+    "from": "jobs-noreply@linkedin.com",
+    "subject": "15 new jobs for Software Developer",
+    "body": "Here are jobs matching your profile. View all jobs on LinkedIn.",
+    "label": "ignore"
+  },
+  {
+    "id": "e04",
+    "from": "offers@myntra.com",
+    "subject": "End of Season Sale - up to 70% off",
+    "body": "Shop now and save big on fashion. Sale ends Sunday.",
+    "label": "ignore"
+  },
+  {
+    "id": "e05",
+    "from": "info@netflix.com",
+    "subject": "New shows added this week",
+    "body": "Check out what's new on Netflix this week.",
+    "label": "ignore"
+  },
+  {
+    "id": "e06",
+    "from": "notifications@github.com",
+    "subject": "someone starred your repository",
+    "body": "user123 starred ravi/ipo-web-app.",
+    "label": "ignore"
+  },
+  {
+    "id": "e07",
+    "from": "sales@cloudtools.io",
+    "subject": "Quick question about your infrastructure",
+    "body": "Hi, we help companies cut cloud costs by 40%. Can I book 15 minutes to demo our product?",
+    "label": "ignore"
+  },
+  {
+    "id": "e08",
+    "from": "orders@swiggy.in",
+    "subject": "Your order receipt",
+    "body": "Thank you for ordering. Your invoice for order #88213 is attached.",
+    "label": "ignore"
+  },
+  {
+    "id": "e09",
+    "from": "no-reply@bank.com",
+    "subject": "Your OTP is 482913",
+    "body": "Do not share this OTP with anyone. Valid for 5 minutes.",
+    "label": "ignore"
+  },
+  {
+    "id": "e10",
+    "from": "notify@facebookmail.com",
+    "subject": "You have 3 new notifications",
+    "body": "See what you missed on Facebook.",
+    "label": "ignore"
+  },
+  {
+    "id": "e11",
+    "from": "updates@playstore.com",
+    "subject": "App update available",
+    "body": "A new version of your app is available. Update now.",
+    "label": "ignore"
+  },
+  {
+    "id": "e12",
+    "from": "promo@edutech.com",
+    "subject": "Free webinar: Become a Data Scientist",
+    "body": "Join our free webinar this Saturday. Register now, limited seats!",
+    "label": "ignore"
+  },
+  {
+    "id": "e13",
+    "from": "hr@company.com",
+    "subject": "Offer letter - Associate Software Developer",
+    "body": "Congratulations Ravi! Please find your offer letter attached. Kindly review the compensation and terms.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e14",
+    "from": "alerts@monitoring.com",
+    "subject": "URGENT: Production server down",
+    "body": "The production API has been unreachable for 10 minutes. Immediate attention required.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e15",
+    "from": "legal@vendor.com",
+    "subject": "Legal notice regarding contract breach",
+    "body": "This is a formal notice regarding a breach of the agreement signed on 12 March.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e16",
+    "from": "security@google.com",
+    "subject": "Security alert: new sign-in from unknown device",
+    "body": "Your account was accessed from a new device in another country. If this wasn't you, secure your account.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e17",
+    "from": "exam@poornima.edu.in",
+    "subject": "Semester results published",
+    "body": "Your semester results are now available on the student portal.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e18",
+    "from": "fees@poornima.edu.in",
+    "subject": "Fee payment due in 2 days",
+    "body": "Your semester fee is due by Wednesday. Late fee will be applied after the due date.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e19",
+    "from": "mom@gmail.com",
+    "subject": "Call me urgently",
+    "body": "Your grandfather is unwell. Please call me as soon as you see this.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e20",
+    "from": "payments@bank.com",
+    "subject": "Payment failed for rent standing instruction",
+    "body": "Your scheduled payment could not be processed due to insufficient balance.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e21",
+    "from": "recruiter@infosys.com",
+    "subject": "Application outcome",
+    "body": "We regret to inform you / we are pleased to share the outcome of your application. Please log in to view the decision.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e22",
+    "from": "manager@company.com",
+    "subject": "Performance review feedback available",
+    "body": "Your quarterly performance review has been submitted. Please read and acknowledge it in the portal.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e23",
+    "from": "hr@company.com",
+    "subject": "Interview scheduled - Friday 11 AM",
+    "body": "Hi Ravi, your interview is scheduled for Friday at 11 AM. Please confirm your availability.",
+    "label": "respond",
+    "ideal_reply": "Dear HR team, I confirm my availability for the interview on Friday at 11 AM. Regards, Ravi",
+    "key_points": [
+      "confirm",
+      "friday",
+      "11 am"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e24",
+    "from": "prof.sharma@poornima.edu.in",
+    "subject": "Project submission deadline moved",
+    "body": "The submission deadline is now Monday. Can you confirm you have received this?",
+    "label": "respond",
+    "ideal_reply": "Dear Professor Sharma, yes, I have received the update that the deadline is now Monday. Regards, Ravi",
+    "key_points": [
+      "received",
+      "monday"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e25",
+    "from": "teammate@company.com",
+    "subject": "Can you review my PR?",
+    "body": "Hey, I've raised a pull request for the login API. Could you review it by tomorrow?",
+    "label": "respond",
+    "ideal_reply": "Hi, sure, I will review your login API pull request by tomorrow. Best regards, Ravi",
+    "key_points": [
+      "review",
+      "tomorrow"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e26",
+    "from": "recruiter@techcorp.com",
+    "subject": "Interested in your profile",
+    "body": "Hi Ravi, we have a Full Stack role open. Could you share your updated resume and expected CTC?",
+    "label": "respond",
+    "ideal_reply": "Hi, thank you for reaching out. I will share my updated resume and expected CTC shortly. Best regards, Ravi",
+    "key_points": [
+      "resume",
+      "ctc"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e27",
+    "from": "client@startup.io",
+    "subject": "Status update on the dashboard",
+    "body": "Hi, could you give me a quick update on the dashboard feature? When can we expect delivery?",
+    "label": "respond",
+    "ideal_reply": "Hi, the dashboard feature is in progress; I will share the expected delivery date shortly. Best regards, Ravi",
+    "key_points": [
+      "dashboard",
+      "delivery"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e28",
+    "from": "friend@gmail.com",
+    "subject": "Lunch on Saturday?",
+    "body": "Are you free for lunch this Saturday at 1 PM? Let me know.",
+    "label": "respond",
+    "ideal_reply": "Hi, Saturday lunch at 1 PM works for me! Best, Ravi",
+    "key_points": [
+      "saturday",
+      "1 pm"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e29",
+    "from": "lead@company.com",
+    "subject": "Sync call this week",
+    "body": "Can we have a 30-minute call on Wednesday or Thursday to discuss the sprint plan? What time works for you?",
+    "label": "respond",
+    "ideal_reply": "Hi, Wednesday works well, I am completely free; would 11:00 suit you? Best regards, Ravi",
+    "key_points": [
+      "wednesday",
+      "time"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e30",
+    "from": "hr@company.com",
+    "subject": "Documents needed for onboarding",
+    "body": "Please send scanned copies of your ID proof and degree certificate by Friday.",
+    "label": "respond",
+    "ideal_reply": "Dear HR team, noted. I will send the scanned ID proof and degree certificate by Friday. Regards, Ravi",
+    "key_points": [
+      "id proof",
+      "degree",
+      "friday"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e31",
+    "from": "teammate@company.com",
+    "subject": "Question about the DB schema",
+    "body": "Which column should I use as foreign key for applications to ipos? Please reply when you can.",
+    "label": "respond",
+    "ideal_reply": "Hi, use the ipo_id column as the foreign key from applications to ipos. Best regards, Ravi",
+    "key_points": [
+      "foreign key",
+      "ipo"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e32",
+    "from": "mentor@infosys.com",
+    "subject": "Request for project demo",
+    "body": "Could you share a short demo of your ambient agent project next week? Please suggest a suitable time.",
+    "label": "respond",
+    "ideal_reply": "Hello, I would be happy to share a demo of the ambient agent next week; would Wednesday work? Regards, Ravi",
+    "key_points": [
+      "demo",
+      "next week",
+      "time"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e33",
+    "from": "hr@company.com",
+    "subject": "Reschedule request",
+    "body": "Our meeting on Tuesday needs to be moved. Are you available on Thursday at 3 PM instead?",
+    "label": "respond",
+    "ideal_reply": "Hi, yes, Thursday at 3 PM works for me. Best regards, Ravi",
+    "key_points": [
+      "thursday",
+      "3 pm"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e34",
+    "from": "classmate@poornima.edu.in",
+    "subject": "Notes for Cloud Computing",
+    "body": "Hey, do you have the Cloud Computing unit 3 notes? Please send them if you do.",
+    "label": "respond",
+    "ideal_reply": "Hi, sure, I will send you the Cloud Computing unit 3 notes shortly. Best, Ravi",
+    "key_points": [
+      "notes",
+      "unit 3"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e35",
+    "from": "pm@company.com",
+    "subject": "Feedback on the new UI",
+    "body": "We updated the UI. Could you take a look and share your feedback by end of day?",
+    "label": "respond",
+    "ideal_reply": "Hi, I will review the updated UI and share my feedback by end of day. Best regards, Ravi",
+    "key_points": [
+      "ui",
+      "feedback",
+      "end of day"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e036",
+    "from": "promo@zomato.com",
+    "subject": "Flat 60% off tonight only",
+    "body": "Use code HUNGRY60 on your next order. Offer valid till midnight.",
+    "label": "ignore"
+  },
+  {
+    "id": "e037",
+    "from": "newsletter@towardsdatascience.com",
+    "subject": "This week in Data Science",
+    "body": "Ten must-read articles on LLMs, agents and MLOps.",
+    "label": "ignore"
+  },
+  {
+    "id": "e038",
+    "from": "no-reply@amazon.in",
+    "subject": "Your order has been shipped",
+    "body": "Your package with 1 item has been shipped and will arrive by Thursday.",
+    "label": "ignore"
+  },
+  {
+    "id": "e039",
+    "from": "noreply@youtube.com",
+    "subject": "New video from Tech With Tim",
+    "body": "Tech With Tim just uploaded: Build an AI Agent in 20 minutes.",
+    "label": "ignore"
+  },
+  {
+    "id": "e040",
+    "from": "offers@paytm.com",
+    "subject": "Cashback waiting for you",
+    "body": "Recharge now and get Rs 50 cashback. Limited period offer.",
+    "label": "ignore"
+  },
+  {
+    "id": "e041",
+    "from": "hello@notion.so",
+    "subject": "What's new in Notion - October",
+    "body": "Here are the latest features we shipped this month.",
+    "label": "ignore"
+  },
+  {
+    "id": "e042",
+    "from": "marketing@hostinger.com",
+    "subject": "Get your website online for Rs 69/month",
+    "body": "Grab our biggest hosting deal of the year. Sale ends soon.",
+    "label": "ignore"
+  },
+  {
+    "id": "e043",
+    "from": "no-reply@spotify.com",
+    "subject": "Your subscription renewed",
+    "body": "Your Spotify Premium plan has been renewed. No action needed.",
+    "label": "ignore"
+  },
+  {
+    "id": "e044",
+    "from": "updates@quora.com",
+    "subject": "Quora Digest: How do I learn LangGraph?",
+    "body": "Answers picked for you based on your interests.",
+    "label": "ignore"
+  },
+  {
+    "id": "e045",
+    "from": "info@coursera.org",
+    "subject": "Courses you might like",
+    "body": "Based on your interests: Machine Learning Specialization, Deep Learning.",
+    "label": "ignore"
+  },
+  {
+    "id": "e046",
+    "from": "growth@saasleads.com",
+    "subject": "Partnership opportunity",
+    "body": "We generate 500 B2B leads a month for companies like yours. Book a demo of our platform.",
+    "label": "ignore"
+  },
+  {
+    "id": "e047",
+    "from": "no-reply@uber.com",
+    "subject": "Your Tuesday trip receipt",
+    "body": "Thanks for riding with Uber. Total fare Rs 243.",
+    "label": "ignore"
+  },
+  {
+    "id": "e048",
+    "from": "digest@stackoverflow.email",
+    "subject": "Stack Overflow weekly newsletter",
+    "body": "Top questions this week in python, javascript and react.",
+    "label": "ignore"
+  },
+  {
+    "id": "e049",
+    "from": "noreply@instagram.com",
+    "subject": "You have new followers",
+    "body": "3 people started following you. See who they are.",
+    "label": "ignore"
+  },
+  {
+    "id": "e050",
+    "from": "deals@flipkart.com",
+    "subject": "Big Billion Days are here!",
+    "body": "Up to 80% off on mobiles and electronics. Shop now.",
+    "label": "ignore"
+  },
+  {
+    "id": "e051",
+    "from": "no-reply@irctc.co.in",
+    "subject": "Booking confirmed - PNR 4521889012",
+    "body": "Your ticket is confirmed. This is an automated message, do not reply.",
+    "label": "ignore"
+  },
+  {
+    "id": "e052",
+    "from": "events@meetup.com",
+    "subject": "New events near Jaipur",
+    "body": "5 new tech meetups in your area this month.",
+    "label": "ignore"
+  },
+  {
+    "id": "e053",
+    "from": "promo@lottery-winners.biz",
+    "subject": "Congratulations you WON Rs 25,00,000",
+    "body": "You are the lucky winner. Send your bank details to claim the prize.",
+    "label": "ignore"
+  },
+  {
+    "id": "e054",
+    "from": "noreply@medium.com",
+    "subject": "Daily Digest: Agents are eating software",
+    "body": "Stories recommended for you today.",
+    "label": "ignore"
+  },
+  {
+    "id": "e055",
+    "from": "notifications@slack.com",
+    "subject": "You have 12 unread messages in #random",
+    "body": "Catch up on what you missed in your workspace.",
+    "label": "ignore"
+  },
+  {
+    "id": "e056",
+    "from": "no-reply@swiggy.in",
+    "subject": "Your order has been delivered",
+    "body": "Hope you enjoyed your meal. Rate your order.",
+    "label": "ignore"
+  },
+  {
+    "id": "e057",
+    "from": "newsletter@producthunt.com",
+    "subject": "Top products of the week",
+    "body": "AI tools, dev tools and more launched this week.",
+    "label": "ignore"
+  },
+  {
+    "id": "e058",
+    "from": "crypto@moonbag.io",
+    "subject": "100x gem launching tomorrow",
+    "body": "Get in early on the next big token. Free airdrop for first 1000 users.",
+    "label": "ignore"
+  },
+  {
+    "id": "e059",
+    "from": "alerts@hdfcbank.com",
+    "subject": "Debit of Rs 45,000 from your account",
+    "body": "Rs 45,000 has been debited from your account ending 4421. If this was not you, call us immediately.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e060",
+    "from": "security@github.com",
+    "subject": "Security alert: personal access token used from new IP",
+    "body": "A personal access token on your account was used from an unfamiliar IP address. Please review your tokens.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e061",
+    "from": "placement@poornima.edu.in",
+    "subject": "Shortlisted for Infosys final round",
+    "body": "Congratulations, you have been shortlisted for the final HR round. Details will be shared on the placement portal.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e062",
+    "from": "noreply@incometax.gov.in",
+    "subject": "Income tax return processed",
+    "body": "Your ITR for AY 2026-27 has been processed. Refund status is available on the portal.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e063",
+    "from": "alerts@aws.amazon.com",
+    "subject": "AWS billing alert: usage exceeded Rs 5,000",
+    "body": "Your estimated charges this month have exceeded your alert threshold.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e064",
+    "from": "dad@gmail.com",
+    "subject": "Reached the hospital",
+    "body": "Your mother is admitted for a check-up, nothing serious. Will update you in the evening.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e065",
+    "from": "exam@poornima.edu.in",
+    "subject": "Admit card released",
+    "body": "Your admit card for the end-semester exams is available. Exams start on 2 November.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e066",
+    "from": "hr@company.com",
+    "subject": "Updated leave policy",
+    "body": "Please read the updated leave policy effective 1 November, available on the HR portal.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e067",
+    "from": "alerts@monitoring.com",
+    "subject": "Disk usage at 95% on db-server-01",
+    "body": "The database server disk is almost full. Action required to avoid downtime.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e068",
+    "from": "noreply@uidai.gov.in",
+    "subject": "Aadhaar details updated",
+    "body": "Your mobile number linked with Aadhaar has been updated. If you did not request this, contact UIDAI.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e069",
+    "from": "visa@embassy.example",
+    "subject": "Visa appointment confirmed",
+    "body": "Your visa appointment is confirmed for 21 October at 10:30 AM. Carry original documents.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e070",
+    "from": "ci@github.com",
+    "subject": "[ambient-email-agent] Build failed on main",
+    "body": "The latest commit on main failed the CI pipeline. 3 tests failed.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e071",
+    "from": "domain@godaddy.com",
+    "subject": "Your domain expires in 3 days",
+    "body": "ravikumawat.dev will expire on 16 October. Renew now to avoid losing it.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e072",
+    "from": "insurance@policybazaar.com",
+    "subject": "Policy renewal due",
+    "body": "Your health insurance policy is due for renewal on 20 October. Premium amount Rs 8,200.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e073",
+    "from": "scholarship@poornima.edu.in",
+    "subject": "Scholarship approved",
+    "body": "Your merit scholarship for this semester has been approved and will be adjusted in the fee.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e074",
+    "from": "accounts@company.com",
+    "subject": "Salary credited for September",
+    "body": "Your salary for September has been credited. Payslip available on the portal.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e075",
+    "from": "legal@company.com",
+    "subject": "NDA signed copy",
+    "body": "Please find the counter-signed NDA attached for your records.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e076",
+    "from": "noreply@linkedin.com",
+    "subject": "Your account was locked",
+    "body": "We noticed unusual activity and temporarily locked your account. Reset your password to unlock.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e077",
+    "from": "sister@gmail.com",
+    "subject": "Flight landed",
+    "body": "Just landed in Bangalore, all good. Will call you tonight.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e078",
+    "from": "recruiter@techcorp.com",
+    "subject": "Offer accepted - next steps",
+    "body": "Thank you for accepting the offer. Background verification will begin this week.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e079",
+    "from": "bob.sharma@company.com",
+    "subject": "Weekly report",
+    "body": "Hi Ravi, can you send me the weekly progress report by tomorrow?",
+    "label": "respond",
+    "ideal_reply": "Hi Bob, sure, I will send the weekly progress report by tomorrow. Best regards, Ravi",
+    "key_points": [
+      "report",
+      "tomorrow"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e080",
+    "from": "priya.verma@company.com",
+    "subject": "Code walkthrough on Thursday?",
+    "body": "Hi Ravi, could we do a 30 minute code walkthrough of the agent on Thursday? Which time suits you?",
+    "label": "respond",
+    "ideal_reply": "Hi Priya, Thursday works. I am free except 14:00-15:00, so 11:00 would be good. Best regards, Ravi",
+    "key_points": [
+      "thursday",
+      "time"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e081",
+    "from": "prof.gupta@poornima.edu.in",
+    "subject": "Synopsis submission",
+    "body": "Ravi, have you submitted the project synopsis? Please confirm by today.",
+    "label": "respond",
+    "ideal_reply": "Dear Professor Gupta, yes, I have submitted the project synopsis. Thank you. Regards, Ravi",
+    "key_points": [
+      "synopsis",
+      "confirm"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e082",
+    "from": "amit@startup.io",
+    "subject": "Freelance work enquiry",
+    "body": "Hi Ravi, would you be interested in building a small React dashboard for us? What would be your rate?",
+    "label": "respond",
+    "ideal_reply": "Hi Amit, thanks for reaching out. I am interested; could you share the scope so I can share an estimate? Best regards, Ravi",
+    "key_points": [
+      "interested",
+      "scope"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e083",
+    "from": "teammate@company.com",
+    "subject": "Merge conflict in main",
+    "body": "Hey, I'm getting a merge conflict in graph.py after your last push. Can you help me fix it today?",
+    "label": "respond",
+    "ideal_reply": "Hi, sure, I will help you resolve the conflict in graph.py today. Best regards, Ravi",
+    "key_points": [
+      "merge conflict",
+      "today"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e084",
+    "from": "neha@company.com",
+    "subject": "Lunch on Friday",
+    "body": "Want to grab lunch on Friday at 1 PM with the team?",
+    "label": "respond",
+    "ideal_reply": "Hi Neha, Friday at 1 PM works for me, see you there. Best regards, Ravi",
+    "key_points": [
+      "friday",
+      "1 pm"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e085",
+    "from": "hr@company.com",
+    "subject": "Joining date confirmation",
+    "body": "Hi Ravi, please confirm whether 3 November works as your joining date.",
+    "label": "respond",
+    "ideal_reply": "Dear HR team, yes, 3 November works for me as my joining date. Thank you. Regards, Ravi",
+    "key_points": [
+      "3 november",
+      "confirm"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e086",
+    "from": "mentor@infosys.com",
+    "subject": "Weekly mentor check-in",
+    "body": "Can we do our weekly check-in on Monday? Please suggest a time.",
+    "label": "respond",
+    "ideal_reply": "Hello, Monday works. I am busy 10:00-11:00 and 15:00-16:00, so 12:00 would suit me. Regards, Ravi",
+    "key_points": [
+      "monday",
+      "time"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e087",
+    "from": "client@startup.io",
+    "subject": "Invoice query",
+    "body": "Hi Ravi, we received the invoice but the GST number is missing. Could you resend it?",
+    "label": "respond",
+    "ideal_reply": "Hi, thanks for pointing that out. I will resend the invoice with the GST number shortly. Best regards, Ravi",
+    "key_points": [
+      "invoice",
+      "gst",
+      "resend"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e088",
+    "from": "rahul@gmail.com",
+    "subject": "Hackathon team",
+    "body": "Hey Ravi, want to join our team for the Smart India Hackathon? Let me know by Wednesday.",
+    "label": "respond",
+    "ideal_reply": "Hi Rahul, thanks for asking, I would love to join the team. Best regards, Ravi",
+    "key_points": [
+      "hackathon",
+      "join"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e089",
+    "from": "prof.sharma@poornima.edu.in",
+    "subject": "Guest lecture volunteers",
+    "body": "We need two volunteers for the guest lecture on Tuesday. Can you help?",
+    "label": "respond",
+    "ideal_reply": "Dear Professor Sharma, yes, I can volunteer for the guest lecture on Tuesday. Regards, Ravi",
+    "key_points": [
+      "volunteer",
+      "tuesday"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e090",
+    "from": "kavya@company.com",
+    "subject": "API documentation",
+    "body": "Could you share the link to the API documentation for the email agent?",
+    "label": "respond",
+    "ideal_reply": "Hi Kavya, sure, I will share the API documentation link shortly. Best regards, Ravi",
+    "key_points": [
+      "documentation",
+      "link"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e091",
+    "from": "lead@company.com",
+    "subject": "Estimate for Gmail integration",
+    "body": "How many days do you need to finish the Gmail API integration? Need an estimate for planning.",
+    "label": "respond",
+    "ideal_reply": "Hi, I estimate about 3-4 working days for the Gmail API integration. Best regards, Ravi",
+    "key_points": [
+      "estimate",
+      "days",
+      "gmail"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e092",
+    "from": "recruiter@fintechco.com",
+    "subject": "Interview availability",
+    "body": "Hi Ravi, are you available for a technical interview on Wednesday at 4 PM?",
+    "label": "respond",
+    "ideal_reply": "Hi, yes, I am available on Wednesday at 4 PM for the interview. Best regards, Ravi",
+    "key_points": [
+      "wednesday",
+      "4 pm"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e093",
+    "from": "classmate@poornima.edu.in",
+    "subject": "DBMS assignment doubt",
+    "body": "Which normal form did you use for question 3 of the DBMS assignment?",
+    "label": "respond",
+    "ideal_reply": "Hi, I used 3NF for question 3. Best regards, Ravi",
+    "key_points": [
+      "normal form",
+      "question 3"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e094",
+    "from": "pm@company.com",
+    "subject": "Demo for stakeholders",
+    "body": "Can you present the email agent demo to stakeholders on Thursday? Please confirm.",
+    "label": "respond",
+    "ideal_reply": "Hi, yes, I can present the email agent demo on Thursday. Best regards, Ravi",
+    "key_points": [
+      "demo",
+      "thursday",
+      "confirm"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e095",
+    "from": "landlord@gmail.com",
+    "subject": "Flat inspection",
+    "body": "Hi Ravi, I need to visit the flat for an inspection on Saturday morning. Is that okay?",
+    "label": "respond",
+    "ideal_reply": "Hello, Saturday morning is fine for the inspection. Regards, Ravi",
+    "key_points": [
+      "saturday",
+      "inspection"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e096",
+    "from": "arjun@company.com",
+    "subject": "Pair programming",
+    "body": "Free for a pair programming session on the memory module on Tuesday afternoon?",
+    "label": "respond",
+    "ideal_reply": "Hi Arjun, Tuesday afternoon works for me after 12:00. Best regards, Ravi",
+    "key_points": [
+      "tuesday",
+      "afternoon"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e097",
+    "from": "editor@techblog.in",
+    "subject": "Guest article",
+    "body": "We liked your LinkedIn post on LangGraph. Would you write a guest article for our blog?",
+    "label": "respond",
+    "ideal_reply": "Hi, thank you for the invitation. I would be happy to write a guest article on LangGraph. Best regards, Ravi",
+    "key_points": [
+      "guest article",
+      "langgraph"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e098",
+    "from": "hr@company.com",
+    "subject": "Laptop preference",
+    "body": "Please let us know whether you prefer a Windows or Mac laptop for onboarding.",
+    "label": "respond",
+    "ideal_reply": "Dear HR team, I would prefer a Windows laptop. Thank you. Regards, Ravi",
+    "key_points": [
+      "laptop",
+      "preference"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e099",
+    "from": "teammate@company.com",
+    "subject": "Unit tests failing",
+    "body": "The HITL unit tests fail on my machine. Did you change the interrupt logic? Please reply.",
+    "label": "respond",
+    "ideal_reply": "Hi, yes, I updated the interrupt logic; please pull the latest main and re-run the tests. Best regards, Ravi",
+    "key_points": [
+      "interrupt",
+      "tests"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e100",
+    "from": "bob.sharma@company.com",
+    "subject": "Sprint retro notes",
+    "body": "Hi Ravi, could you share your notes from the sprint retro?",
+    "label": "respond",
+    "ideal_reply": "Hi Bob, sure, I will share my sprint retro notes shortly. Best regards, Ravi",
+    "key_points": [
+      "retro",
+      "notes"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e101",
+    "from": "conference@pycon.in",
+    "subject": "Speaker confirmation",
+    "body": "Your talk was accepted for PyCon India. Please confirm your participation by 20 October.",
+    "label": "respond",
+    "ideal_reply": "Hello, thank you, I confirm my participation as a speaker at PyCon India. Regards, Ravi",
+    "key_points": [
+      "confirm",
+      "participation"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e102",
+    "from": "support@clientco.com",
+    "subject": "Bug in the export feature",
+    "body": "Our users report that CSV export is broken since yesterday. Can you look into it?",
+    "label": "respond",
+    "ideal_reply": "Hi, thanks for reporting this. I will look into the CSV export issue today and update you. Best regards, Ravi",
+    "key_points": [
+      "csv export",
+      "look into"
+    ],
+    "expected_tools": [
+      "send_email"
+    ]
+  },
+  {
+    "id": "e103",
+    "from": "sneha@company.com",
+    "subject": "Coffee chat",
+    "body": "Hi Ravi, I'm new on the team. Would you have time for a quick coffee chat on Wednesday?",
+    "label": "respond",
+    "ideal_reply": "Hi Sneha, welcome to the team! Wednesday works for me, happy to meet. Best regards, Ravi",
+    "key_points": [
+      "welcome",
+      "wednesday"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e104",
+    "from": "prof.gupta@poornima.edu.in",
+    "subject": "Viva date",
+    "body": "The minor project viva is on Friday. Can you confirm your team's presence?",
+    "label": "respond",
+    "ideal_reply": "Dear Professor Gupta, I confirm our team will be present for the viva on Friday. Regards, Ravi",
+    "key_points": [
+      "viva",
+      "friday",
+      "confirm"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  },
+  {
+    "id": "e105",
+    "from": "vendor@cloudhost.in",
+    "subject": "Server migration window",
+    "body": "We plan to migrate your server on Sunday 2 AM. Does that work for you?",
+    "label": "respond",
+    "ideal_reply": "Hi, Sunday 2 AM works for the server migration. Best regards, Ravi",
+    "key_points": [
+      "sunday",
+      "migration"
+    ],
+    "expected_tools": [
+      "check_calendar_availability",
+      "send_email"
+    ]
+  }
+]

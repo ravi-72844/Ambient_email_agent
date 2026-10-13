@@ -1,0 +1,251 @@
+{
+  "dataset": "data/golden_set.json",
+  "accuracy": 1.0,
+  "rows": [
+    {
+      "id": "e01",
+      "subject": "WIN a FREE iPhone!!!",
+      "label": "ignore",
+      "pred": "ignore",
+      "ok": true
+    },
+    {
+      "id": "e02",
+      "subject": "Your weekly digest",
+      "label": "ignore",
+      "pred": "ignore",
+      "ok": true
+    },
+    {
+      "id": "e03",
+      "subject": "15 new jobs for Software Developer",
+      "label": "ignore",
+      "pred": "ignore",
+      "ok": true
+    },
+    {
+      "id": "e04",
+      "subject": "End of Season Sale - up to 70% off",
+      "label": "ignore",
+      "pred": "ignore",
+      "ok": true
+    },
+    {
+      "id": "e05",
+      "subject": "New shows added this week",
+      "label": "ignore",
+      "pred": "ignore",
+      "ok": true
+    },
+    {
+      "id": "e06",
+      "subject": "someone starred your repository",
+      "label": "ignore",
+      "pred": "ignore",
+      "ok": true
+    },
+    {
+      "id": "e07",
+      "subject": "Quick question about your infrastructure",
+      "label": "ignore",
+      "pred": "ignore",
+      "ok": true
+    },
+    {
+      "id": "e08",
+      "subject": "Your order receipt",
+      "label": "ignore",
+      "pred": "ignore",
+      "ok": true
+    },
+    {
+      "id": "e09",
+      "subject": "Your OTP is 482913",
+      "label": "ignore",
+      "pred": "ignore",
+      "ok": true
+    },
+    {
+      "id": "e10",
+      "subject": "You have 3 new notifications",
+      "label": "ignore",
+      "pred": "ignore",
+      "ok": true
+    },
+    {
+      "id": "e11",
+      "subject": "App update available",
+      "label": "ignore",
+      "pred": "ignore",
+      "ok": true
+    },
+    {
+      "id": "e12",
+      "subject": "Free webinar: Become a Data Scientist",
+      "label": "ignore",
+      "pred": "ignore",
+      "ok": true
+    },
+    {
+      "id": "e13",
+      "subject": "Offer letter - Associate Software Developer",
+      "label": "notify_human",
+      "pred": "notify_human",
+      "ok": true
+    },
+    {
+      "id": "e14",
+      "subject": "URGENT: Production server down",
+      "label": "notify_human",
+      "pred": "notify_human",
+      "ok": true
+    },
+    {
+      "id": "e15",
+      "subject": "Legal notice regarding contract breach",
+      "label": "notify_human",
+      "pred": "notify_human",
+      "ok": true
+    },
+    {
+      "id": "e16",
+      "subject": "Security alert: new sign-in from unknown device",
+      "label": "notify_human",
+      "pred": "notify_human",
+      "ok": true
+    },
+    {
+      "id": "e17",
+      "subject": "Semester results published",
+      "label": "notify_human",
+      "pred": "notify_human",
+      "ok": true
+    },
+    {
+      "id": "e18",
+      "subject": "Fee payment due in 2 days",
+      "label": "notify_human",
+      "pred": "notify_human",
+      "ok": true
+    },
+    {
+      "id": "e19",
+      "subject": "Call me urgently",
+      "label": "notify_human",
+      "pred": "notify_human",
+      "ok": true
+    },
+    {
+      "id": "e20",
+      "subject": "Payment failed for rent standing instruction",
+      "label": "notify_human",
+      "pred": "notify_human",
+      "ok": true
+    },
+    {
+      "id": "e21",
+      "subject": "Application outcome",
+      "label": "notify_human",
+      "pred": "notify_human",
+      "ok": true
+    },
+    {
+      "id": "e22",
+      "subject": "Performance review feedback available",
+      "label": "notify_human",
+      "pred": "notify_human",
+      "ok": true
+    },
+    {
+      "id": "e23",
+      "subject": "Interview scheduled - Friday 11 AM",
+      "label": "respond",
+      "pred": "respond",
+      "ok": true
+    },
+    {
+      "id": "e24",
+      "subject": "Project submission deadline moved",
+      "label": "respond",
+      "pred": "respond",
+      "ok": true
+    },
+    {
+      "id": "e25",
+      "subject": "Can you review my PR?",
+      "label": "respond",
+      "pred": "respond",
+      "ok": true
+    },
+    {
+      "id": "e26",
+      "subject": "Interested in your profile",
+      "label": "respond",
+      "pred": "respond",
+      "ok": true
+    },
+    {
+      "id": "e27",
+      "subject": "Status update on the dashboard",
+      "label": "respond",
+      "pred": "respond",
+      "ok": true
+    },
+    {
+      "id": "e28",
+      "subject": "Lunch on Saturday?",
+      "label": "respond",
+      "pred": "respond",
+      "ok": true
+    },
+    {
+      "id": "e29",
+      "subject": "Sync call this week",
+      "label": "respond",
+      "pred": "respond",
+      "ok": true
+    },
+    {
+      "id": "e30",
+      "subject": "Documents needed for onboarding",
+      "label": "respond",
+      "pred": "respond",
+      "ok": true
+    },
+    {
+      "id": "e31",
+      "subject": "Question about the DB schema",
+      "label": "respond",
+      "pred": "respond",
+      "ok": true
+    },
+    {
+      "id": "e32",
+      "subject": "Request for project demo",
+      "label": "respond",
+      "pred": "respond",
+      "ok": true
+    },
+    {
+      "id": "e33",
+      "subject": "Reschedule request",
+      "label": "respond",
+      "pred": "respond",
+      "ok": true
+    },
+    {
+      "id": "e34",
+      "subject": "Notes for Cloud Computing",
+      "label": "respond",
+      "pred": "respond",
+      "ok": true
+    },
+    {
+      "id": "e35",
+      "subject": "Feedback on the new UI",
+      "label": "respond",
+      "pred": "respond",
+      "ok": true
+    }
+  ]
+}

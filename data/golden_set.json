@@ -1,0 +1,247 @@
+[
+  {
+    "id": "e01",
+    "from": "deals@shopnow.biz",
+    "subject": "WIN a FREE iPhone!!!",
+    "body": "Click here now to claim your free prize. Limited time offer!",
+    "label": "ignore"
+  },
+  {
+    "id": "e02",
+    "from": "newsletter@medium.com",
+    "subject": "Your weekly digest",
+    "body": "Top stories on AI and web development this week.",
+    "label": "ignore"
+  },
+  {
+    "id": "e03",
+    "from": "jobs-noreply@linkedin.com",
+    "subject": "15 new jobs for Software Developer",
+    "body": "Here are jobs matching your profile. View all jobs on LinkedIn.",
+    "label": "ignore"
+  },
+  {
+    "id": "e04",
+    "from": "offers@myntra.com",
+    "subject": "End of Season Sale - up to 70% off",
+    "body": "Shop now and save big on fashion. Sale ends Sunday.",
+    "label": "ignore"
+  },
+  {
+    "id": "e05",
+    "from": "info@netflix.com",
+    "subject": "New shows added this week",
+    "body": "Check out what's new on Netflix this week.",
+    "label": "ignore"
+  },
+  {
+    "id": "e06",
+    "from": "notifications@github.com",
+    "subject": "someone starred your repository",
+    "body": "user123 starred ravi/ipo-web-app.",
+    "label": "ignore"
+  },
+  {
+    "id": "e07",
+    "from": "sales@cloudtools.io",
+    "subject": "Quick question about your infrastructure",
+    "body": "Hi, we help companies cut cloud costs by 40%. Can I book 15 minutes to demo our product?",
+    "label": "ignore"
+  },
+  {
+    "id": "e08",
+    "from": "orders@swiggy.in",
+    "subject": "Your order receipt",
+    "body": "Thank you for ordering. Your invoice for order #88213 is attached.",
+    "label": "ignore"
+  },
+  {
+    "id": "e09",
+    "from": "no-reply@bank.com",
+    "subject": "Your OTP is 482913",
+    "body": "Do not share this OTP with anyone. Valid for 5 minutes.",
+    "label": "ignore"
+  },
+  {
+    "id": "e10",
+    "from": "notify@facebookmail.com",
+    "subject": "You have 3 new notifications",
+    "body": "See what you missed on Facebook.",
+    "label": "ignore"
+  },
+  {
+    "id": "e11",
+    "from": "updates@playstore.com",
+    "subject": "App update available",
+    "body": "A new version of your app is available. Update now.",
+    "label": "ignore"
+  },
+  {
+    "id": "e12",
+    "from": "promo@edutech.com",
+    "subject": "Free webinar: Become a Data Scientist",
+    "body": "Join our free webinar this Saturday. Register now, limited seats!",
+    "label": "ignore"
+  },
+  {
+    "id": "e13",
+    "from": "hr@company.com",
+    "subject": "Offer letter - Associate Software Developer",
+    "body": "Congratulations Ravi! Please find your offer letter attached. Kindly review the compensation and terms.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e14",
+    "from": "alerts@monitoring.com",
+    "subject": "URGENT: Production server down",
+    "body": "The production API has been unreachable for 10 minutes. Immediate attention required.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e15",
+    "from": "legal@vendor.com",
+    "subject": "Legal notice regarding contract breach",
+    "body": "This is a formal notice regarding a breach of the agreement signed on 12 March.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e16",
+    "from": "security@google.com",
+    "subject": "Security alert: new sign-in from unknown device",
+    "body": "Your account was accessed from a new device in another country. If this wasn't you, secure your account.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e17",
+    "from": "exam@poornima.edu.in",
+    "subject": "Semester results published",
+    "body": "Your semester results are now available on the student portal.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e18",
+    "from": "fees@poornima.edu.in",
+    "subject": "Fee payment due in 2 days",
+    "body": "Your semester fee is due by Wednesday. Late fee will be applied after the due date.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e19",
+    "from": "mom@gmail.com",
+    "subject": "Call me urgently",
+    "body": "Your grandfather is unwell. Please call me as soon as you see this.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e20",
+    "from": "payments@bank.com",
+    "subject": "Payment failed for rent standing instruction",
+    "body": "Your scheduled payment could not be processed due to insufficient balance.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e21",
+    "from": "recruiter@infosys.com",
+    "subject": "Application outcome",
+    "body": "We regret to inform you / we are pleased to share the outcome of your application. Please log in to view the decision.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e22",
+    "from": "manager@company.com",
+    "subject": "Performance review feedback available",
+    "body": "Your quarterly performance review has been submitted. Please read and acknowledge it in the portal.",
+    "label": "notify_human"
+  },
+  {
+    "id": "e23",
+    "from": "hr@company.com",
+    "subject": "Interview scheduled - Friday 11 AM",
+    "body": "Hi Ravi, your interview is scheduled for Friday at 11 AM. Please confirm your availability.",
+    "label": "respond"
+  },
+  {
+    "id": "e24",
+    "from": "prof.sharma@poornima.edu.in",
+    "subject": "Project submission deadline moved",
+    "body": "The submission deadline is now Monday. Can you confirm you have received this?",
+    "label": "respond"
+  },
+  {
+    "id": "e25",
+    "from": "teammate@company.com",
+    "subject": "Can you review my PR?",
+    "body": "Hey, I've raised a pull request for the login API. Could you review it by tomorrow?",
+    "label": "respond"
+  },
+  {
+    "id": "e26",
+    "from": "recruiter@techcorp.com",
+    "subject": "Interested in your profile",
+    "body": "Hi Ravi, we have a Full Stack role open. Could you share your updated resume and expected CTC?",
+    "label": "respond"
+  },
+  {
+    "id": "e27",
+    "from": "client@startup.io",
+    "subject": "Status update on the dashboard",
+    "body": "Hi, could you give me a quick update on the dashboard feature? When can we expect delivery?",
+    "label": "respond"
+  },
+  {
+    "id": "e28",
+    "from": "friend@gmail.com",
+    "subject": "Lunch on Saturday?",
+    "body": "Are you free for lunch this Saturday at 1 PM? Let me know.",
+    "label": "respond"
+  },
+  {
+    "id": "e29",
+    "from": "lead@company.com",
+    "subject": "Sync call this week",
+    "body": "Can we have a 30-minute call on Wednesday or Thursday to discuss the sprint plan? What time works for you?",
+    "label": "respond"
+  },
+  {
+    "id": "e30",
+    "from": "hr@company.com",
+    "subject": "Documents needed for onboarding",
+    "body": "Please send scanned copies of your ID proof and degree certificate by Friday.",
+    "label": "respond"
+  },
+  {
+    "id": "e31",
+    "from": "teammate@company.com",
+    "subject": "Question about the DB schema",
+    "body": "Which column should I use as foreign key for applications to ipos? Please reply when you can.",
+    "label": "respond"
+  },
+  {
+    "id": "e32",
+    "from": "mentor@infosys.com",
+    "subject": "Request for project demo",
+    "body": "Could you share a short demo of your ambient agent project next week? Please suggest a suitable time.",
+    "label": "respond"
+  },
+  {
+    "id": "e33",
+    "from": "hr@company.com",
+    "subject": "Reschedule request",
+    "body": "Our meeting on Tuesday needs to be moved. Are you available on Thursday at 3 PM instead?",
+    "label": "respond"
+  },
+  {
+    "id": "e34",
+    "from": "classmate@poornima.edu.in",
+    "subject": "Notes for Cloud Computing",
+    "body": "Hey, do you have the Cloud Computing unit 3 notes? Please send them if you do.",
+    "label": "respond"
+  },
+  {
+    "id": "e35",
+    "from": "pm@company.com",
+    "subject": "Feedback on the new UI",
+    "body": "We updated the UI. Could you take a look and share your feedback by end of day?",
+    "label": "respond"
+  }
+]
